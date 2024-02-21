@@ -146,7 +146,7 @@ public class TheStack : MonoBehaviour
                         ? moveT.position.x + stackBounds.x / 2 + halfScale
                         : moveT.position.x - (stackBounds.x / 2 + halfScale)
                         , moveT.position.y
-                        , moveT.position.z),//
+                        , moveT.position.z),
                     new Vector3(Mathf.Abs(deltaX), 1, moveT.localScale.z)
                     );
 
